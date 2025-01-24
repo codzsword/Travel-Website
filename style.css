@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Setting up variable color */
+
+body {
+    --bg-color1: #fbfdff;
+    --bg-color2: #eaeae9;
+    --color1: #3e4455;
+    --color2: #000;
+}
+
+/* Root CSS Variable */
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Global */
+
+h2 {
+    font-size: 1.5rem;
+    color: var(--bg-color2);
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+    color: var(--color1);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+    color: var(--bg-color2);
+    margin-bottom: 1.5rem;
+}
+
+h5,
+h6 {
+    font-size: 1.15rem;
+    color: var(--color1);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--color1);
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Outfit', serif;
+}
+
+/* ====== Wrapper ====== */
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.main-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for header navigation */
+
+header {
+
+}
+
+header .btn {
+}
+
+.main-row.header-wrap {
+
+}
+
+.logo img {
+
+}
+
+.main-navbar {
+}
+
+.navbar-toggle i {
+
+}
+
+/* Navbar for mobile view */
+
+.main-navbar.show {
+   
+}
+
+.main-navbar ul li {
+}
+
+.main-navbar ul li a {
+
+}
+
+/* Slider */
+
+#slider img {
+}
+
+.slide-content {
+ 
+}
+
+.btn {
+ 
+}
+
+.slide-content .btn,
+.slide-content p {
+}
+
+.prevArrowBtn,
+.nextArrowBtn {
+   
+}
+
+.prevArrowBtn {
+}
+
+.nextArrowBtn {
+}
+
+#slider:hover .prevArrowBtn,
+#slider:hover .nextArrowBtn {
+}
+
+/* ===== Style for category section ====== */
+
+#category {
+   
+}
+
+#category h3 {
+}
+
+.categories {
+   
+}
+
+.category-card {
+  
+}
+
+.category-card .icon {
+ 
+}
+
+.category-content h6 {
+   
+}
+
+/* ===== Subtitle Design ======= */
+
+.subtitle {
+    position: relative;
+    color: var(--color1);
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 55px;
+}
+
+.subtitle::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 35px;
+    height: 3px;
+    background-color: var(--color2);
+}
+
+/* ===== Style For Destination ==== */
+
+#destination {
+    
+}
+
+.destination-row {
+   
+}
+
+.destination-card {
+  
+}
+
+.destination-info {
+    
+}
+
+.destination-info p {
+    
+}
+
+.destination-card:hover .destination-info {
+}
+
+.destination-image img {
+}
+
+.destination-card:hover .destination-image img {
+}
+
+/* Style for about section */
+
+#about {
+
+}
+
+.about-heading {
+    
+}
+
+.about-body {
+}
+
+.cover-up {
+   
+}
+
+.cover-up img {
+}
+
+.cover-up::before {
+   
+}
+
+/* ==== Style For Featured Package ==== */
+
+#featured {
+  
+}
+
+.featured-title {
+}
+
+#featured h3,
+#featured .subtitle {
+}
+
+.package-content {
+
+}
+
+.package-content img {
+}
+
+.package-content:hover img {
+}
+
+.package-title {
+}
+
+.swiper-pagination {
+   
+}
+
+.swiper-pagination-bullet {
+  
+}
+
+.swiper-pagination-bullet-active {
+    
+}
+
+/* ==== Gallery ====== */
+
+#gallery {
+}
+
+.gallery-wrapper {
+   
+}
+
+.gallery-wrapper .gallery-col {
+   
+}
+
+.gallery-item {
+    
+}
+
+.gallery-item img {
+}
+
+.gallery-item:hover img {
+}
+
+.gallery-item.second img {
+   
+}
+
+.gallery-item.first img {
+    
+}
+
+/* ===== Contact Section Style ==== */
+
+#contact {
+   
+}
+
+#contact .main-row {
+}
+
+#contact ul {
+}
+
+#contact form {
+}
+
+.contact-info {
+   
+}
+
+.contact-info li {
+   
+}
+
+.contact-icon {
+}
+
+.contact-icon i {
+   
+}
+
+.contact-detail h5 {
+
+}
+
+.contact-detail span {
+}
+
+.footer-contact label {
+    
+}
+
+.footer-contact label span {
+}
+
+/* ==== Footer Contact Form ==== */
+
+.footer-contact {
+   
+}
+
+.input-wrapper,
+.input-subject,
+.form-submit {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.input-control,
+.contact-msg {
+    font-family: 'Outfit', serif;
+    font-size: 1rem;
+    background-color: #f6f6f9;
+    border: 1px solid #f6f6f9;
+    color: #3e4455;
+    line-height: 45px;
+    outline: none;
+    padding: 0 30px;
+    width: 100%;
+    font-weight: 500;
+}
+
+.contact-msg {
+    height: 120px;
+    line-height: 1.2;
+    padding: 20px 30px;
+    resize: none;
+}
+
+.form-submit>.btn {
+    width: 100%;
+    padding: 15px 30px;
+    background-color: #7f39f8;
+    text-transform: uppercase;
+}
+
+/* ==== Footer ===== */
+
+footer {
+
+}
+
+.main-row.footer-wrap {
+   
+}
+
+.copyright-text {
+}
+
+.social-icons li:not(:last-child) {
+ 
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li a {
+}
+
+/* Large Devive Responsive */
+
+@media (min-width: 768px) {
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    .prevArrowBtn,
+    .nextArrowBtn {
+        font-size: 40px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .slide-content {
+        left: 10%;
+        right: 0;
+        text-align: left;
+    }
+
+    .slide-content .btn {
+        display: block;
+        width: max-content;
+    }
+
+    .slide-content p {
+        display: block;
+        color: var(--bg-color1);
+        margin-bottom: 2rem;
+        width: 75%;
+    }
+
+    header {
+        background-color: var(--bg-color1);
+    }
+
+    header .btn {
+        display: block;
+        background-color: #000;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+    .main-navbar {
+        display: block;
+    }
+
+    .main-navbar ul li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+
+    .main-navbar li a {
+        color: var(--color1);
+        line-height: 65px;
+    }
+
+    .categories {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .about-heading {
+        margin: auto 0;
+        width: 50%;
+        text-align: unset;
+    }
+
+    .about-body {
+        margin-top: 30px;
+        width: 50%;
+        padding-top: 0;
+        padding-left: 40px;
+        min-height: 400px;
+    }
+
+    .destination-row {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .gallery-wrapper {
+        flex-direction: row;
+    }
+
+    .contact-info {
+        order: 1;
+        width: 35%;
+        padding-top: 15px;
+    }
+
+    .footer-contact {
+        order: 2;
+        width: 65%;
+        padding-left: 40px;
+    }
+
+    .input-wrapper {
+        padding: 0 10px;
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .input-subject,
+    .form-submit {
+        padding: 10px;
+    }
+
+    .main-row.footer-wrap {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .copyright-text {
+        display: block;
+    }
+}
